@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="141346" started-at="2020-01-09T18:39:14 EST" finished-at="2020-01-09T18:41:35 EST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="141346" started-at="2020-01-09T18:39:14 EST" finished-at="2020-01-09T18:41:35 EST">
+      <class name="testCases.ParallelTestingAPI.chromeTest">
+        <test-method status="PASS" signature="startDockerScale()[pri:0, instance:testCases.ParallelTestingAPI.chromeTest@3701eaf6]" name="startDockerScale" is-config="true" duration-ms="67114" started-at="2020-01-09T18:39:14 EST" finished-at="2020-01-09T18:40:21 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerScale -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testCases.ParallelTestingAPI.chromeTest@3701eaf6]" name="test1" duration-ms="21711" started-at="2020-01-09T18:40:21 EST" finished-at="2020-01-09T18:40:43 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="stopDockerDeleteFile()[pri:0, instance:testCases.ParallelTestingAPI.chromeTest@3701eaf6]" name="stopDockerDeleteFile" is-config="true" duration-ms="36933" started-at="2020-01-09T18:40:58 EST" finished-at="2020-01-09T18:41:35 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerDeleteFile -->
+      </class> <!-- testCases.ParallelTestingAPI.chromeTest -->
+      <class name="testCases.ParallelTestingAPI.firefoxTest">
+        <test-method status="PASS" signature="test2()[pri:0, instance:testCases.ParallelTestingAPI.firefoxTest@627551fb]" name="test2" duration-ms="37012" started-at="2020-01-09T18:40:21 EST" finished-at="2020-01-09T18:40:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- testCases.ParallelTestingAPI.firefoxTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
